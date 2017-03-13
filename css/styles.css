@@ -1,0 +1,185 @@
+﻿body {
+   /* Background pattern from Subtle Patterns */
+   background-image: url("../img/seamless_paper_texture.png");
+}
+
+main {
+   margin-top: 70px;
+}
+
+footer {
+   background-color: black;
+   color: white;
+   width: 100%;
+   margin: 5px 0 0 0;
+}
+
+.navbar {
+   padding: 10px 15px;
+   -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   -o-transition: all 0.5s;
+   transition: all 0.5s;
+}
+
+.nav-button {
+   margin-top: 10px;
+}
+
+.shrink-navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.carousel-div {
+   margin-top: 40px;
+   margin-bottom: 10px;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+.carousel-inner .item img {
+   height: auto;
+   width: 100%
+}
+
+.pizza, .food {
+   border-bottom: 1px solid #999;
+}
+
+.pizza:last-of-type, .food:last-of-type {
+   border-bottom: none;
+}
+
+.pizza h4 {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#pizzaHeader > div:not(:first-child) {
+   padding-left: 0;
+}
+
+@media(min-width: 960px) {
+   #pizzaHeader > div:not(:first-child){
+      padding-left: 15px;  
+   }
+}
+
+div[class$="-price"] {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: #0c0f9c;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+}
+
+div[class$="-price"]:hover {
+   color: #4d4fad;
+}
+
+.fb {
+   width: 23px;
+   height: 32px;
+   background-color: #4668b3;
+   float: left;
+   color: white;
+}
+
+.fb a:visited, .fb a:active, .fb a:hover, .fb a:link {
+   text-decoration: none;
+   color: white;
+}
+
+#logo a:visited, #logo a:active, #logo a:hover, #logo a:link, #logo a:focus {
+   text-decoration: none;
+}
+
+#logo h3 {
+   margin-top: 10px;
+}
+
+#introduction {
+   margin-top: 40px;
+}
+
+@media(min-width: 960px) {
+   #introduction {
+   margin-top: 0px;
+}
+}
+
+
+#menu {
+   margin-top: 20px;
+}
+
+#pizzaMenu, #foodMenu {
+   background-color: #f9f9f5;
+   border-radius: 10px;
+}
+
+#pizzaHeader, #foodHeader {
+   background-color: #a0522d;
+   border-radius: 10px 10px 0 0;
+}
+
+#pizzaHeader h3{
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#pizzaHeader h4 {
+   margin-top: 10px;
+   margin-bottom: 5px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#pizzaHeader h4.badge {
+   background-color: #c1744e;
+   color: #000;
+}
+
+#pizzaHeader h4.badge:hover {
+   background-color: #d1652c;
+   color: #ccc;
+}
+
+#foodMenu {
+   background-color: #fff;
+   margin-top: 10px;
+}
+
+#foodHeader h3 {
+   padding-left: 15px;
+}
+
+#contact {
+   margin-top: 10px;
+   background-color:#eee;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+#map {
+   height: 100%;
+   width: 100%;
+}
+
+.map-container {
+   position: relative;
+   width: 520px;
+   height: 300px;
+   border: 1px solid #000;
+   padding: 0;
+}
+
+

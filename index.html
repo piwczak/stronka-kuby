@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Pizzeria u Jakuba</title>
+    <meta name="description" content="Pizzeria u Jakuba w Posądzy"/>
+    <meta name="keywords" content="pizza, pizzeria u Jakuba, Posądza"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!--styles-->
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/fontello.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="container" id="top">
+    <nav class="navbar navbar-default navbar-fixed-top scroll-navbar" role="navigation">
+        <div class="navbar-header">
+            <button class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Nawigacja</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div id="logo">
+                <a href="#top">
+                    <h3>Pizzeria u Jakuba</h3>
+                    <p class="text-info">Musisz spróbować naszych specjałów</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-button">
+                    <a href="#top">O Nas</a>
+                </li>
+                <li class="nav-button">
+                    <a href="#pizzaMenu">Pizza</a>
+                </li>
+                <li class="nav-button">
+                    <a href="#foodMenu">Jedzonko</a>
+                </li>
+                <li class="nav-button">
+                    <a href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="container">
+    <div class="row visible-md visible-lg carousel-div">
+        <!--<div class="col-md-8 col-md-offset-2">-->
+            <div class="carousel slide" id="theCarousel" data-interval="2000">
+                <ol class="carousel-indicators">
+                    <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#theCarousel" data-slide-to="1"></li>
+                    <li data-target="#theCarousel" data-slide-to="2"></li>
+                    <li data-target="#theCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="img/pizza1.jpg" alt="1" class="img-responsive"/>
+                    </div>
+                    <div class="item">
+                        <img src="img/pizza2.jpg" alt="2" class="img-responsive"/>
+                    </div>
+                    <div class="item">
+                        <img src="img/pizza3.jpg" alt="3" class="img-responsive"/>
+                    </div>
+                    <div class="item">
+                        <img src="img/pizza4.jpg" alt="4" class="img-responsive"/>
+                    </div>
+                </div>
+
+                <a href="#theCarousel" class="carousel-control left" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </a>
+                <a href="#theCarousel" class="carousel-control right" data-slide="next">
+                    <span class="icon-next"></span>
+                </a>
+            </div>
+        <!--</div>-->
+    </div>
+
+    <section id="introduction">
+        <div class="well well-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id quam at eros facilisis sodales. Sed semper, velit dictum malesuada bibendum, nunc odio molestie sapien, nec rhoncus augue tellus sit amet massa. Nullam ultrices metus non libero blandit scelerisque. Cras egestas lacinia mauris, eget consectetur ante fermentum nec. Proin ac tincidunt turpis, at egestas augue. Ut eget tortor laoreet, pellentesque enim nec, egestas est. Nulla a nunc vulputate magna vulputate congue nec scelerisque erat. Maecenas scelerisque nunc elit, sed tempus magna lobortis eget. Fusce pulvinar a metus dictum fringilla. Nam sagittis ante nulla.</div>
+    </section>
+
+    <section id="menu">
+        <div id="pizzaMenu" class="container">
+            <div id="pizzaHeader" class="row">
+                <div class="col-sm-8">
+                    <h3>Pizza</h3>
+                </div>
+                <div class="col-sm-offset-1 col-sm-1">
+                    <h4 class="badge">30 cm</h4>
+                </div>
+                <div class="col-sm-1">
+                    <h4 class="badge">40 cm</h4>
+                </div>
+                <div class="col-sm-1">
+                    <h4 class="badge">50 cm</h4>
+                </div>
+            </div>
+
+            <div id="pizzaBody">
+                <div class="pizza row">
+                    <div class="col-sm-8">
+                        <h4>Margarita</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                </div>
+
+                <div class="pizza row">
+                    <div class="col-sm-8">
+                        <h4>Carbonara</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                </div>
+
+                <div class="pizza row">
+                    <div class="col-sm-8">
+                        <h4>Margarita</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                </div>
+
+                <div class="pizza row">
+                    <div class="col-sm-8">
+                        <h4>Carbonara</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                </div>
+
+                <div class="pizza row">
+                    <div class="col-sm-8">
+                        <h4>Margarita</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                </div>
+
+                <div class="pizza row">
+                    <div class="col-sm-8">
+                        <h4>Carbonara</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                    <div class="col-sm-1 pizza-price">
+                        33.33
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="foodMenu" class="container">
+            <div id="foodHeader" class="row">
+                <h3>Jedzonko</h3>
+            </div>
+
+            <div class="foodBody">
+                <div class="food row">
+                    <div class="col-sm-8">
+                        <h4>Jedzonko 1</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-3 food-price">
+                        100
+                    </div>
+                </div>
+
+                <div class="food row">
+                    <div class="col-sm-8">
+                        <h4>Jedzonko 2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-3 food-price">
+                        100
+                    </div>
+                </div>
+
+                <div class="food row">
+                    <div class="col-sm-8">
+                        <h4>Jedzonko 1</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-3 food-price">
+                        100
+                    </div>
+                </div>
+
+                <div class="food row">
+                    <div class="col-sm-8">
+                        <h4>Jedzonko 2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-3 food-price">
+                        100
+                    </div>
+                </div>
+
+                <div class="food row">
+                    <div class="col-sm-8">
+                        <h4>Jedzonko 1</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-3 food-price">
+                        100
+                    </div>
+                </div>
+
+                <div class="food row">
+                    <div class="col-sm-8">
+                        <h4>Jedzonko 2</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique.</p>
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-3 food-price">
+                        100
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="row">
+        <div id="address" class="col-sm-5">
+            <address>
+                Nasz adres:<br/>
+                <i class="glyphicon glyphicon-home"></i>
+                Pizzeria u Jakuba, Posądza <br/>
+                <br/>
+                <br/>
+                <i class="glyphicon glyphicon-phone"></i> Telefon <br/>
+                <i class="glyphicon glyphicon-envelope"></i> Email
+            </address>
+            <div class="fb">
+                <a href="https://www.facebook.com/pizzaujakuba">
+                    <i class="icon-facebook-squared"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-offset-1 col-sm-6 map-container">
+            <div id="map" class="map"></div>
+        </div>
+    </section>
+</main>
+
+<footer style="text-align: center">
+    2017 Siema &copy;
+</footer>
+
+
+<!--scripts-->
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script>
+<script src="js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOWWxj3GaADBl-bFYqYM5XJ22ORlcMhT8&callback=initMap" async defer></script>
+
+</body>
+</html>
