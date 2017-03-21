@@ -45,7 +45,7 @@ footer {
    width: 100%
 }
 
-.pizza, .food {
+.pizza, .food, .pizzaExtras {
    border-bottom: 1px solid #999;
 }
 
@@ -53,9 +53,16 @@ footer {
    border-bottom: none;
 }
 
-.pizza h4 {
+.pizza h4, .pizzaExtras h4 {
    font-size: 16px;
    font-weight: bold;
+}
+
+.pizzaExtras h4 {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 
 #pizzaHeader > div:not(:first-child) {
