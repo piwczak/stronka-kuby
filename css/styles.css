@@ -3,6 +3,34 @@
    background-image: url("../img/seamless_paper_texture.png");
 }
 
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
+
 main {
    margin-top: 70px;
 }
@@ -14,6 +42,10 @@ footer {
    margin: 5px 0 0 0;
 }
 
+h3 {
+    font-size: 1.7142857em
+}
+
 .navbar {
    padding: 10px 15px;
    -webkit-transition: all 0.5s;
@@ -22,6 +54,10 @@ footer {
    -ms-transition: all 0.5s;
    -o-transition: all 0.5s;
    transition: all 0.5s;
+}
+
+.pizza-badge {
+    text-align: center;
 }
 
 .nav-button {
@@ -49,12 +85,16 @@ footer {
    border-bottom: 1px solid #999;
 }
 
+.badge {
+    font-size: 0.857142857em;
+}
+
 .pizza:last-of-type, .food:last-of-type, .dish:last-of-type, .pizzaExtras:last-of-type {
    border-bottom: none;
 }
 
 .pizza h4, .pizzaExtras h4, .food h4, .dish h4 {
-   font-size: 16px;
+   font-size: 1.142857em;
    font-weight: bold;
 }
 
@@ -66,7 +106,7 @@ footer {
 }
 
 .pizzeriaAddreess {
-   font-size: 17px;
+   font-size: 1.2142857em;
    font-weight: 300;
 }
 
@@ -80,7 +120,7 @@ footer {
 }
 
 #pizzaHeader > div:not(:first-child), #dishHeader > div:not(:first-child) {
-   padding-left: 0;
+   padding-left: 10px;
 }
 
 @media(min-width: 960px) {
@@ -95,7 +135,7 @@ div[class$="-price"] {
    padding-top: 10px;
    padding-bottom: 10px;
    color: #0c0f9c;
-   font-size: 16px;
+   font-size: 1.2142857em;
    font-weight: bold;
    text-align: center;
 }
@@ -197,10 +237,9 @@ div[class$="-price"]:hover {
 
 .map-container {
    position: relative;
-   width: 520px;
    height: 300px;
    border: 1px solid #000;
-   padding: 0;
+   padding: 1px;
 }
 
 
