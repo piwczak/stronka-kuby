@@ -5,12 +5,12 @@ $(function () {
     var offset = 0;
 
     if(windowWidth <= 360) {
-        offset = 175;
+        offset = 170;
     }
     else if (windowWidth > 360 && windowWidth <= 768) {
-        offset = 170;
+        offset = 145;
     } else {
-        offset = 135;
+        offset = 125;
     }
 
      $('#theCarousel').carousel();
