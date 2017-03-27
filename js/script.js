@@ -13,24 +13,37 @@ $(function () {
         offset = 135;
     }
 
-    $('body')
-        .scrollspy({
-            target: '.navbar',
-            offset: offset
-        });
+     $('#theCarousel').carousel();
+     
 
-    $('nav a, .down-button a')
-        .on('click',
-            function (event) {
-                $('body, html')
-                    .stop()
-                    .animate({
-                        scrollTop: $($(this).attr('href')).offset().top - 100
-                    }, 1500, 'easeInOutExpo');
-                event.preventDefault();
-            });
+     var animateScroll = (function ($) {
+         var animateToTarget = function (event) {
+             $('body, html')
+                 .stop()
+                 .animate({
+                     scrollTop: $($(event.target).attr('href')).offset().top - 100
+                 }, 1500, 'easeInOutExpo');
+         };
 
-    $('#theCarousel').carousel();
+         var init = function () {
+             $('body')
+                 .scrollspy({
+                     target: '.navbar',
+                     offset: offset
+                 });
+
+             $('nav a').on('click', function (event) {
+                 event.preventDefault();
+                 $.when($('.navbar-collapse.in').collapse('hide'))
+                     .then(function () {
+                         animateToTarget(event);
+                     });
+             });
+         }
+
+         init();
+     })($);
+   
 
     var animatedNavbar = (function($) {
         var headerOffset = 300;
