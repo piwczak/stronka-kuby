@@ -1,6 +1,7 @@
 ﻿body {
    /* Background pattern from Subtle Patterns */
    background-image: url("../img/seamless_paper_texture.png");
+   font-family: 'Lato', sans-serif;
 }
 
 /* xs < 768 */
@@ -43,7 +44,7 @@ footer {
 }
 
 h3 {
-    font-size: 1.7142857em
+    font-size: 1.7142857em;
 }
 
 .navbar {
@@ -85,8 +86,11 @@ h3 {
    border-bottom: 1px solid #999;
 }
 
-.badge {
-    font-size: 0.857142857em;
+.size {
+    font-size: 1.1142857em;
+    font-family: 'Titan One', cursive;
+    background-color: #600;
+    color: #fff;
 }
 
 .pizza:last-of-type, .food:last-of-type, .dish:last-of-type, .pizzaExtras:last-of-type {
@@ -134,7 +138,7 @@ div[class$="-price"] {
    margin-bottom: 10px;
    padding-top: 10px;
    padding-bottom: 10px;
-   color: #0c0f9c;
+   color: #0080FF;
    font-size: 1.2142857em;
    font-weight: bold;
    text-align: center;
@@ -162,7 +166,17 @@ div[class$="-price"]:hover {
 }
 
 #logo h3 {
-   margin-top: 10px;
+    margin-top: 10px;
+    font-family: 'Poller One', cursive; 
+    color: red;
+    font-weight: bold;
+    font-size: 1.9242857em
+}
+
+#logo p {
+    color: #0080FF;
+    font-size: 1.1242857em;
+    font-weight: bold;
 }
 
 #introduction {
@@ -186,15 +200,22 @@ div[class$="-price"]:hover {
 }
 
 #pizzaHeader, #foodHeader, #dishHeader {
-   background-color: #a0522d;
    border-radius: 10px 10px 0 0;
 }
 
-#pizzaHeader h3, #dishHeader h3{
+.sectionHeader {
+   background-color: #600;
+}
+
+
+/*#pizzaHeader h3, #dishHeader h3, #foodHeader h3, #addsHeader{*/
+.sectionHeader h3{ 
    margin-top: 5px;
    margin-bottom: 5px;
    padding-top: 10px;
    padding-bottom: 10px;
+   color: #fff;
+   font-family: 'Titan One', cursive;
 }
 
 #pizzaHeader h4, #dishHeader h4 {
@@ -204,14 +225,8 @@ div[class$="-price"]:hover {
    padding-bottom: 10px;
 }
 
-#pizzaHeader h4.badge, #dishHeader h4.badge {
-   background-color: #c1744e;
-   color: #000;
-}
-
-#pizzaHeader h4.badge:hover, #dishHeader h4.badge:hover {
-   background-color: #d1652c;
-   color: #ccc;
+#pizzaFooter .sectionHeader h3 {
+    padding: 0 10px;
 }
 
 #foodMenu, #dishMenu {

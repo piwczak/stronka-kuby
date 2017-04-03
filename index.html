@@ -10,6 +10,7 @@
     <!--styles-->
     <link href="css/bootstrap.css" rel="stylesheet"/>
     <link href="css/fontello.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Poller+One|Titan+One&amp;subset=latin-ext" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet"/>
 </head>
 <body>
@@ -92,18 +93,18 @@
 
     <section id="menu">
         <div id="pizzaMenu" class="container">
-            <div id="pizzaHeader" class="row">
+            <div id="pizzaHeader" class="row sectionHeader">
                 <div class="col-sm-8 col-xs-6">
                     <h3>Pizza</h3>
                 </div>
                 <div class="col-sm-offset-1 col-sm-1 col-xs-2 pizza-badge">
-                    <h4 class="badge">32 cm</h4>
+                    <h4 class="size">32 cm</h4>
                 </div>
                 <div class="col-sm-1 col-xs-2 pizza-badge">
-                    <h4 class="badge">40 cm</h4>
+                    <h4 class="size">40 cm</h4>
                 </div>
                 <div class="col-sm-1 col-xs-2 pizza-badge">
-                    <h4 class="badge">50 cm</h4>
+                    <h4 class="size">50 cm</h4>
                 </div>
             </div>
 
@@ -381,7 +382,9 @@
         </div>
 
         <div id="pizzaFooter">
-            <h3>Dodatki</h3>
+            <div class="row sectionHeader">
+                <h3>Dodatki</h3>
+            </div>
             <div class="pizzaExtras row">
                 <div class="col-sm-8 col-xs-6">
                     <h4>MIĘSNY</h4>
@@ -443,7 +446,7 @@
 
 
     <div id="foodMenu" class="container">
-        <div id="foodHeader" class="row">
+        <div id="foodHeader" class="row sectionHeader">
             <h3>Jedzonko</h3>
         </div>
 
@@ -623,15 +626,15 @@
     </div>
 
     <div id="dishMenu" class="container">
-        <div id="dishHeader" class="row">
+        <div id="dishHeader" class="row sectionHeader">
             <div class="col-sm-8 col-xs-6">
                 <h3>Zestawy Obiadowe</h3>
             </div>
             <div class="col-sm-offset-1 col-sm-1 col-xs-3">
-                <h4 class="badge">&nbsp;Małe&nbsp;</h4>
+                <h4 class="size">&nbsp;Małe&nbsp;</h4>
             </div>
             <div class="col-sm-offset-1 col-sm-1 col-xs-3">
-                <h4 class="badge">&nbsp;Duże&nbsp;</h4>
+                <h4 class="size">&nbsp;Duże&nbsp;</h4>
             </div>
         </div>
 
@@ -733,7 +736,7 @@
 </main>
 
 <footer style="text-align: center">
-    2017 Siema &copy;
+   &copy; 2017 przemek.piwowarczyk@gmail.com
 </footer>
 
 
@@ -743,7 +746,7 @@
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/script.js"></script>
 <script src="js/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOWWxj3GaADBl-bFYqYM5XJ22ORlcMhT8&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOWWxj3GaADBl-bFYqYM5XJ22ORlcMhT8&callback=initMap" async defer></script>
 
 </body>
 </html>

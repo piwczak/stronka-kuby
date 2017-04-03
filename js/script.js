@@ -58,7 +58,7 @@ $(function () {
 
 
         var navbarOnScrolling = function() {
-            var scrollY = window.pageYOffset || document.scrollTop;
+            let scrollY = window.pageYOffset || document.scrollTop;
 
             if (scrollY >= headerOffset) {
                 elem.addClass('shrink-navbar');
