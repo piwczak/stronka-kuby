@@ -77,9 +77,9 @@ h3 {
    margin-right: 0;
 }
 
-.carousel-inner .item img {
-   height: auto;
-   width: 100%
+.carousel {
+   width: 960px;
+   margin: 0 auto;
 }
 
 .pizza, .food, .pizzaExtras, .dish {
@@ -194,17 +194,18 @@ div[class$="-price"]:hover {
    margin-top: 20px;
 }
 
-#pizzaMenu, #foodMenu, #dishMenu {
+#pizzaMenu, #foodMenu, #dishMenu, #promotion {
    background-color: #f9f9f5;
    border-radius: 10px;
 }
 
-#pizzaHeader, #foodHeader, #dishHeader {
+/*#pizzaHeader, #foodHeader, #dishHeader, #promotionHeader {
    border-radius: 10px 10px 0 0;
-}
+}*/
 
 .sectionHeader {
    background-color: #600;
+   border-radius: 10px 10px 0 0;
 }
 
 
@@ -229,12 +230,12 @@ div[class$="-price"]:hover {
     padding: 0 10px;
 }
 
-#foodMenu, #dishMenu {
+#foodMenu, #dishMenu, #promotion {
    background-color: #fff;
    margin-top: 10px;
 }
 
-#foodHeader h3, #dishHeader h3 {
+#foodHeader h3, #dishHeader h3, #promotionHeader h3 {
    padding-left: 15px;
 }
 
@@ -257,4 +258,66 @@ div[class$="-price"]:hover {
    padding: 1px;
 }
 
+.promotionBody > div[class*="promotion"] {
+    float: left;
+    height: 120px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+}
 
+.promotion1 {
+    background: white;
+    color: black;
+}
+
+.promotion2 {
+    background: white;
+    color: black;
+}
+
+.promotion3 {
+    background: white;
+    color: black;
+}
+
+.promotion4 {
+    background: white;
+    color: black;
+}
+
+.promotion5 {
+    background: white;
+    color: black;
+}
+
+.promotion6 {
+    background: white;
+    color: black;
+}
+
+
+.promotionBody  div[class*="promotion"] img {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    float: left;
+    width: 115px;
+    height: 95px;
+}
+
+.promotionBody  div[class*="promotion"] em {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.item-carousel {
+    width: 1100px;
+    height: 400px;
+}

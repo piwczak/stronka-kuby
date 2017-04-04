@@ -16,7 +16,7 @@ var MapModule = (function($) {
         }
 
         var infoWindow = new google.maps.InfoWindow({
-            content: 'Pizzeria u Jakuba</br>Adres</br>'
+            content: '<b>Pizzeria u Jakuba</b><br/>Posądza 95A<br/>32-104 Proszowice'
         });
 
         var marker = new google.maps.Marker(markerSettings);
@@ -39,7 +39,7 @@ var MapModule = (function($) {
             fillOpacity: 0.2,
             map: map,
             center: latLang,
-            radius: 5000
+            radius: 7500
         });
     }
 
