@@ -18,10 +18,15 @@ $(function () {
 
      var animateScroll = (function ($) {
          var animateToTarget = function (event) {
+            let $eventTarget = $(event.target);
+            if(!$eventTarget.is('a')){
+                $eventTarget = $eventTarget.parent('a');
+            }
+
              $('body, html')
                  .stop()
                  .animate({
-                     scrollTop: $($(event.target).attr('href')).offset().top - 100
+                     scrollTop: $($eventTarget.attr('href')).offset().top - 100
                  }, 1500, 'easeInOutExpo');
          };
 

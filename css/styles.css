@@ -244,6 +244,7 @@ div[class$="-price"]:hover {
    background-color:#eee;
    margin-left: 0;
    margin-right: 0;
+   font-size: 1.2em;
 }
 
 #map {
@@ -265,38 +266,9 @@ div[class$="-price"]:hover {
     font-size: 1.5em;
     font-weight: bold;
     position: relative;
-}
-
-.promotion1 {
     background: white;
     color: black;
 }
-
-.promotion2 {
-    background: white;
-    color: black;
-}
-
-.promotion3 {
-    background: white;
-    color: black;
-}
-
-.promotion4 {
-    background: white;
-    color: black;
-}
-
-.promotion5 {
-    background: white;
-    color: black;
-}
-
-.promotion6 {
-    background: white;
-    color: black;
-}
-
 
 .promotionBody  div[class*="promotion"] img {
     position: absolute;
